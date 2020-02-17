@@ -9,7 +9,7 @@ class EmailAddressParser
     @emails = emails
   end
   
-  def Parse
+  def parse
     emails.split(/, | /).uniq
   end
 end
